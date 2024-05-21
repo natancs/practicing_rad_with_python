@@ -61,6 +61,7 @@ python main.py
 - [Tkinter](https://tkdocs.com/index.html) -
 GUI framework
 - [Pandas](https://pandas.pydata.org/) - Data Base in excel.
+- [RAD](https://pt.wikipedia.org/wiki/Desenvolvimento_r%C3%A1pido_de_aplica%C3%A7%C3%B5es) - Applied methodology
 
 ## ✍️ Authors <a name = "authors"></a>
 

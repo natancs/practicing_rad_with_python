@@ -1,6 +1,9 @@
 import tkinter as tk
 from tkinter import ttk
-from utils.index import *
+from utils.check_status import check_status
+from utils.save_data import save_data
+from utils.calculate_average import calculate_average
+from utils.loading_data import loading_data
 
 
 class MainView:
@@ -68,7 +71,7 @@ class MainView:
         save_data(self)
 
     def fVerificarSituacao(self, nota1, nota2):
-        return check_status(nota1, nota2)
+        check_status(nota1, nota2)
 
     def fCalcularMedia(self):
-        calculate_avarege(self)
+        calculate_average(self)

@@ -1,4 +1,4 @@
-def calculate_avarege(instance):
+def calculate_average(instance):
     try:
         nome = instance.txtNome.get()
         nota1 = float(instance.txtNota1.get())
