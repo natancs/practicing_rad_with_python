@@ -1,0 +1,60 @@
+Modelagens:
+1 - Operação
+2 - Seus processos
+3 - Fluxos de trabalho
+4 - Requisitos
+
+Criar diagrama de fluxo de processo
+Entender os requisitos e interações do usuário
+Criar protótipos do sistema
+
+Exemplo:
+Uma empresa deseja desenvolver um sistema de gerenciamento de pedidos online para um restaurante. Os principais processos de negócio são:
+1 Pedido de alimentos
+2 Preparação de Pedidos
+3 Entrega de Pedidos
+4 Pagamento
+5 Gerenciamento de Estoque
+
+
+Modelagem de negócio
+Uma das principais técnicas para representar a modelagem de negócios é utilizar o diagrama de Casos de Uso da UML
+Nessa fase, é feita a obtenção de informações a respeito dos requisitos funcionais do sistema, reunidas por várias fontes relacionadas aos negócios. Essas informações são então combinadas para criar uma documentação que será utilizada para modelar o ciclo de vida dos dados: Como os dados podem ser usados, quando são processados e a sua transformação em informações que serão utilizadas por alguma área, ou setor específico do negócio. Trata-se, portanto, de uma análise com viés comercial.
+
+Modelagem de dados
+Nessa fase, todas as informações que foram obtidas durante a fase anterior são analisadas para formar conjuntos de objetos de dados essenciais para os negócios. Através da análise, as informações são agrupadas de modo que sejam úteis para a empresa. Por exemplo, na determinação de quais são as entidades principais que serão tratadas pelo sistema. A qualidade de cada grupo de dados, então, é examinada e recebe uma descrição precisa. Em seguida, é feito mapeamento que relaciona esses grupos entre si e qual o significado desses relacionamentos, conforme definido na etapa precedente. Avançando um pouco mais, agora deve-se identificar e definir os atributos de todos os conjuntos de dados. Também é estabelecida e definida em detalhes de relevância para o modelo de negócios a relação entre esses objetos de dados.
+
+Os processos de negócios principais: Que tratam das principais atividades do negócio.
+Os processos auxiliares: São atividades que precisam ser feitas de qualquer modo, para que o negócio funcione.
+Os processos de gerenciamento: Representam os processos que gerenciam outros processos e os relacionam com seus proprietários.
+
+De um modo simplificado, um projeto de interface deve levar em consideração alguns pontos:
+- Os elementos de interface, tais como os botões, barras de rolagem e menus devem ter um comportamento previsível para os usuários, de modo que a interação com os componentes seja intuitiva.
+- Aplicação de recursos que destaque um componente no contexto da aplicação. Por exemplo, usar sombras para botões.
+- A interface deve ser simples, ou seja, os elementos devem atender aos proprósitos dos usuários.
+- A organização dos elementos deve ser legível. Para obter isso, é importante que haja uma hierarquia que os relacione, além da preocupação em fazer alinhamentos que priorizem o bem-estar do usuário.
+- O uso de recursos de cores e contrastes deve ser moderado e sempre com o propósito de guiar o usuário para realização de suas tarefas.
+- Os tamanhos das fontes, estilo ― negrito e itálico, por exemplo ―, maiúsculas e distância entre letras também devem ser contextualizados com o objetivo de dar destaque para o usuário sobre o significado de uma mensagem. Por exemplo, um texto em letras maiúsculas pode ser usado para destacar o cuidado que o usuário deve ter ao realizar alguma ação específica no sistema, como excluir um registro.
+- Por unidade de interação, por exemplo, telas, a quantidade de ações para executar tarefas deve ser a menor possível. O foco sempre deve ser o usuário, portanto a interface deve ser um guia, para que progridam na execução de tarefas complexas.
+- Os controles devem estar próximos dos objetos que os usuários desejam controlar. Por exemplo, um botão para enviar um formulário deve estar próximo dele.
+- Fornecer informações para os usuários a respeito de suas ações do sistema, como mensagens de confirmação de envio, por exemplo.
+- Em algumas situações, é apropriado aplicar padrões de utilização do sistema para facilitar o trabalho do usuário. Por exemplo, preencher formulários previamente. Essa opção, no entanto, deve ser aplicada com bastante ponderação, pois, apesar de ser bastante útil em muitas situações, pode ser utilizada por pessoas mal-intencionadas para obter indevidamente dados dos usuários.
+- O design dos componentes deve ser contextualizado com o posicionamento do negócio a que se destina. No caso de sistemas para empresas, é esperado que haja um estilo visual que deve ser mantido.
+- A interface deve fornecer os próximos passos de como os usuários devem proceder para navegar no sistema e atingir seus objetivos em qualquer contexto.
+
+TÉCNICAS DE PROTOTIPAGEM DE INTERFACE COM O USUÁRIO
+- Sketches: Trata-se de esboços de um projeto. Eles são fáceis de criar e úteis para verificar se os conceitos e requisitos foram totalmente compreendidos sem consumir muito esforço. O seu uso deve ser limitado ao início do projeto, pois é inadequado testar funcionalidades do sistema.
+- Wireframes: São muito úteis para fazer uma abordagem mais complexa para mapear a interface do usuário. Eles são mais detalhados do que os Sketches, além disso, algumas ferramentas permitem adicionar componentes interativos. Desse modo, o usuário pode fazer navegações no protótipo sem a implementação das funcionalidades.
+- Mockup: Também conhecida como “maquete”, é usada para refletir as opções de design para a escolha de cores, layouts, tipografia, iconografia e aspectos visuais de navegação do produto.
+- Protótipos: São modelos funcionais de sistema. São construídos para tratar tanto das funcionalidades do produto, como também da aparência.
+
+Modelagem de Estudo de caso:
+funcionario da escola --> cadastrar dados <-- visualizar situação escolar <-- aluno
+
+Modelagem de dados:
+Dado - Tipo
+Aluno - Texto
+Nota1 - Decimal
+Nota2 - Decimal
+Média - Decimal
+Situação - Texto
