@@ -1,9 +1,9 @@
 import tkinter as tk
-from main_view import MainView
+from view.login_view import TelaLogin
 
-windows = tk.Tk()
-windows.title("Bem Vindo ao RAD")
-windows.geometry("820x600+10+10")
-MainView(windows)
+# Cria a janela de login
+root = tk.Tk()
+app = TelaLogin(root)
 
-windows.mainloop()
+# Inicia o loop da aplicação
+root.mainloop()

@@ -8,14 +8,17 @@ from utils.loading_data import loading_data
 
 class MainView:
     def __init__(self, win) -> None:
+        win.title("Bem Vindo ao RAD")
+        win.geometry("820x600+10+10")
+
         # componentes
         self.lblNome = tk.Label(win, text="Nome do Aluno:")
         self.lblNota1 = tk.Label(win, text="Nota 1:")
         self.lblNota2 = tk.Label(win, text="Nota 2:")
         self.lblMedia = tk.Label(win, text="Média:")
-        self.txtNome = tk.Entry(bd=3)
-        self.txtNota1 = tk.Entry()
-        self.txtNota2 = tk.Entry()
+        self.txtNome = tk.Entry(win, bd=3)
+        self.txtNota1 = tk.Entry(win)
+        self.txtNota2 = tk.Entry(win)
         self.btnCalcular = tk.Button(
             win, text="Calcular Média", command=self.fCalcularMedia)
 
