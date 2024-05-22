@@ -1,15 +1,15 @@
+from utils.check_status import check_status
+
+
 def calculate_average(instance):
     try:
         nome = instance.txtNome.get()
         nota1 = float(instance.txtNota1.get())
         nota2 = float(instance.txtNota2.get())
-        media, situacao = instance.fVerificarSituacao(nota1, nota2)
+        media, situacao = check_status(nota1, nota2)
         values = (nome, str(nota1), str(nota2), str(media), situacao)
 
-        instance.treeMedias.insert('', 'end',
-                                   iid=instance.iid,
-                                   values=values)
-
+        instance.treeMedias.add_row(values)
         instance.iid = instance.iid + 1
         instance.id = instance.id + 1
 

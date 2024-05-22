@@ -1,8 +1,10 @@
-
-from view.login_view import TelaLogin
-
-# # Cria a janela de login
+import os
 import customtkinter
+from view.login_view import TelaLogin
+from dotenv import load_dotenv
+
+load_dotenv()
+# # Cria a janela de login
 
 # Modes: system (default), light, dark
 customtkinter.set_appearance_mode("dark")

@@ -15,9 +15,9 @@ def loading_data(instance):
             situacao = dados["Situação"][i]
             values = (nome, nota1, nota2, media, situacao)
 
-            instance.treeMedias.insert(
-                '', 'end', iid=instance.iid, values=(values))
+            instance.treeMedias.add_row(values)
             instance.iid = instance.iid + 1
             instance.id = instance.id + 1
+
     except Exception as e:
         print('Ainda não existem dados para carregar: ', e)
